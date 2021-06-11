@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thornbury Records Checkout A3</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="layout.css">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+</head>
+
+
+<body> 
+    <nav>
+        <a href="home.html">
+            <img src="img/thelogo.png" alt="..." width="250px" class="logo"> 
+        </a>
+        <div class="menu">
+        <ul>
+            <li><a href="#">VINYL <i class="fas fa-chevron-down"></i></a>
+                <ul>
+                    <li><a href="product list.html">new arrivals</a></li>
+                    <li><a href="product list.html">best sellers</a></li>
+                    <li>
+                        <ul>
+                            <li><a href="product list.html">rock </a></li>
+                            
+                            <li><a href="product list.html">hip-hop</a></li>
+                            <li><a href="product list.html">pop </a></li>
+                        </ul>
+                        <a href="product list.html">genres <i class="fas fa-chevron-right"></i></a>
+                    </li>
+                    <li><a href="product list.html">alphabetical</a></li>
+                </ul>
+            </li>
+            <li><a href="product list.html">TURNTABLES & HIFI</a></li>
+            <li><a href="product list.html">VINYL TO CD</a></li>
+            <li><a href="product list.html">GIFT VOUCHERS</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>  
+        </div>
+        
+        <ul class="nav-side">
+            
+        <div class="cart-container">
+        <li class="m-nav-item">
+                    <a href="cart.html" class="cart-nav"> <img src="img/thecart.png" alt="..." width="30px"></a>
+                </li>
+        <div class="shopping-cart">
+            
+        <div class="shopping-cart-header">
+            <a href="cart.html" class="cart-nav"> <img src="img/thecart.png" alt="..." width="30px"></a>  
+            <div class="shopping-cart-total">
+            <span class="lighter-text">Total:</span>
+            <span class="main-color-text">$74.00</span>
+            </div>
+        </div> 
+    
+        <ul class="shopping-cart-items">
+            <li class="clearfix">
+            <img src="img/taylor-swift-folklore.png" alt="item1" class="drop-img" width="50px" />
+            <span class="item-name">folklore</span>
+            <span class="item-price">$74.00</span>
+            <span class="item-quantity">Quantity: 01</span>
+            </li>
+        </div> 
+    </div> 
+
+    <input type="search" id="search" />
+        </ul>
+
+            
+
+    <div class="nav-menu">
+            <ul>
+                <li class="m-nav-item">
+                    <a href="product list.html" class="nav-link">Vinyl</a>
+                </li>
+                <li class="m-nav-item">
+                    <a href="product list.html" class="nav-link">Turntables & HiFi</a>
+                </li>
+                <li class="m-nav-item">
+                    <a href="product list.html" class="nav-link">Vinyl to CD</a>
+                </li>
+                <li class="m-nav-item">
+                    <a href="product list.html" class="nav-link">Gift Voucher</a>
+                </li>
+                <li class="m-nav-item">
+                    <a href="login.html" class="nav-link">Log In</a>
+                </li>
+                
+            </ul>  
+            </div>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </ul>
+        <script src="navbar.js"></script>
+    </nav>
+
+
+    <div class="container">
+    <form id="form" name="form" action="#">
+        <div class="row">
+            <div class="column">
+                <h1>Checkout</h1>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="Email" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Mobile" required />
+                    </div>
+                </div>
+                <h2>Delivery Details (same as billing)</h2>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="First Name" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Last Name" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="Street Address" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Suburb" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="State" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Postcode" required />
+                    </div>
+                </div>
+                <h2>Payment Details</h2>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="Cardholder's Name" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="Card Number" required />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <input type="text" placeholder="Expiry Date" required />
+                    </div>
+                    <div class="column">
+                        <input type="text" placeholder="CVV/CVC" required />
+                    </div>
+                </div>
+                <h2>Shipping Options</h2>
+                <div class="row">
+                    <div class="column radio-container">
+                        <input type="radio" name="shipping-method" id="paid" checked>
+                        <label for="paid">$8.95 Aus Wide Shipping</label>
+                    </div>
+                    <div class="column radio-container">
+                        <input type="radio" name="shipping-method" id="free">
+                        <label for="free">FREE In-Store Pick Up</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="row justify-center">
+                    <h1>Your Order</h1>
+                </div>
+                <div class="row justify-center">
+                    <img class="order-image" src="img/taylor-swift-folklore.png" alt="..." />
+                </div>
+                <div class="row justify-center">
+                    <div class="text-align-center">
+                        <h5>TAYLOR SWIFT</h5>
+                        <h3>folklore</h3>
+                        <h4>$74.00</h4>
+                        <br>
+                        <h2>order total: $82.95</h2>
+                    </div>
+                </div>
+                <div class="row justify-center">
+                    <a href="cart.html" class="back-button">Cart</a>
+                    <a href="confirmation.html" class="order-button">PLACE ORDER</a>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>   
+</body>
+
+<footer>
+    <div class="footer-row">
+        <div class="footer-column">
+            <div class="first"><h2>INFORMATION</h2>
+            <a href="#">Our Stores</a>
+            <br> 
+            <a href="#">Contact Us</a>
+            <br>
+            <a href="#">About Us</a>
+            <br>
+            <a href="#">Turntable Repair</a>
+        </div>
+        </div>
+        <div class="footer-column">
+            <div class="hide">
+            <h2>STORE INFORMATION</h2>
+            <p>Orders can be picked up from Victoria Rd, Thornbury</p>
+            <br> 
+            <p>VIC 3017</p>
+            <br>
+            <p>Pick Up Mon-Sat 12-3pm</p>  
+            </div>
+            
+        </div>
+        <div class="footer-column">
+            <h2>NEWSLETTER</h2>
+            <div class="email">
+                <input type="email" name="email" id="email_input" placeholder="Enter Your Email">
+            </div>
+            <br>
+            <h4>email: info@thornburyrecords.com</h4>
+            <p>check out our ebay store: ebay.com</p>
+        </div>
+        <div class="footer-column">
+            <img src="img/payment.PNG" alt="..."  class="payment">
+        </div>
+    </div>
+</footer>
